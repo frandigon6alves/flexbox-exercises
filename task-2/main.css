@@ -11,6 +11,8 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+
     /*Add your code here*/
 }
 
@@ -20,5 +22,9 @@ li {
     border-radius: .5em;
     color: #fff;
     padding: .5em;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    /* Flex: 1 0 0; */
     /*Add your code here*/
 }
